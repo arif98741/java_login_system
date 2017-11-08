@@ -16,7 +16,8 @@ public class MySQL {
             con = (Connection) DriverManager.getConnection(url, u, p);
             return con;
         } catch (ClassNotFoundException | SQLException e) {
-            return null;
+            return null; //comment option
+
         }
 
     }

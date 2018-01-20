@@ -10,7 +10,7 @@ public class MySQL {
         Connection con;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/student";
+            String url = "jdbc:mysql://localhost:3306/student"; //here student is a database that built in localhost.
             String u = "root";
             String p = "";
             con = (Connection) DriverManager.getConnection(url, u, p);
